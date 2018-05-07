@@ -1,5 +1,5 @@
-FROM haproxy:alpine
+FROM haproxy:1.8-alpine
 
-LABEL maintainer="Meik Minks <mminks@inox.io>"
+LABEL maintainer="romracer <romracer@localhost>"
 
 COPY docker-entrypoint.sh /
